@@ -1,126 +1,50 @@
 <script setup></script>
 
 <template>
-  <main>
-    <header class="header">
-      <nav class="navbar navbar-expand-lg py-6">
-        <div class="container">
-          <a href="#" class="navbar-brand text-uppercase font-weight-bold"
-            >if cachorros</a
-          >
-          <button
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-            class="navbar-toggler navbar-toggler-right"
-          >
-            <i class="fa fa-bars"></i>
-          </button>
-
-          <div id="navbarSupportedContent" class="collapse navbar-collapse">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a href="#" class="nav-link text-uppercase font-weight-bold"
-                  >Home <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <router-link to="/about">
-                  <a href="#" class="nav-link text-uppercase font-weight-bold"
-                    >About
-                  </a>
-                </router-link>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link text-uppercase font-weight-bold"
-                  >Gallery</a
-                >
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link text-uppercase font-weight-bold"
-                  >Portfolio</a
-                >
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link text-uppercase font-weight-bold"
-                  >Contact</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+    <header>
+      <nav class="navbar">
+  <div class="container-fluid ">
+   <router-link to="/about"> 
+     <a class="navbar">
+      <img class="logo" src="HACKTOUILLE/src/assets/images/Captura_de_tela_de_2022-06-11_08-50-51.png" alt="" width="20" height="30">
+      dogs
+    </a>
+    </router-link>
+  <router-link to="/about">AA</router-link>
+  <router-link to="/">Home</router-link>
+  <router-link to="/">Home</router-link>
+  <router-link to="/">Home</router-link>
+  </div>
+</nav>
     </header>
-  </main>
+    <main>
+    </main>
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+      <span class="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+    </ul>
+  </footer>
 </template>
 
 <style>
-.navbar {
-  transition: all 0.4s;
-}
-
-.navbar .nav-link {
-  color: rgb(192, 83, 83);
-}
-
-.navbar .nav-link:hover,
-.navbar .nav-link:focus {
-  color: rgb(100, 62, 62);
-  text-decoration: none;
-}
-
-.navbar .navbar-brand {
-  color: rgb(204, 63, 63);
-}
-
-.navbar.active {
-  background: rgb(255, 255, 255);
-  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.navbar.active .nav-link {
-  color: #555;
-}
-
-.navbar.active .nav-link:hover,
-.navbar.active .nav-link:focus {
-  color: #555;
-  text-decoration: none;
-}
-
-.navbar.active .navbar-brand {
-  color: #555;
-}
-
-/* Change navbar styling on small viewports */
-@media (max-width: 100%) {
-  .navbar {
-    background: rgb(202, 43, 43);
-  }
-
-  .navbar .navbar-brand,
-  .navbar .nav-link {
-    color: #555;
-  }
-}
-
-/*
-*
-* ==========================================
-* FOR DEMO PURPOSES
-* ==========================================
-*
-*/
-.text-small {
-  font-size: 0.9rem !important;
-}
 
 body {
   min-height: 110rem;
-  background-color: #ffffff;
-  background-image: linear-gradient(135deg, #ffffff 0%, #c4e0e5 100%);
+  background-color: #962525;
+  background-image: linear-gradient( #ffffff 0%, #dff4df 100%);
 }
+nav{
+  background-color: #339945;
+  margin: 0 auto;
+}
+
 </style>
