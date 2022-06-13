@@ -1,5 +1,5 @@
 <template>
-  <div>oieçkhffweiufwiefg</div>
+  <div>corinthians</div>
 </template>
 
 <style></style>

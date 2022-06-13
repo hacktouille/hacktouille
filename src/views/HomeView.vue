@@ -304,7 +304,7 @@ ol, li {
   display: inline-block;
   width: 1.5rem;
   height: 1.5rem;
-  background-color: #333;
+  background-color: rgb(37, 133, 58);
   background-clip: content-box;
   border: 0.25rem solid transparent;
   border-radius: 50%;
@@ -318,11 +318,11 @@ ol, li {
 .carousel__next {
   position: absolute;
   top: 0;
-  margin-top: 37.5%;
+  margin-top: 20%;
   width: 4rem;
   height: 4rem;
   transform: translateY(-50%);
-  border-radius: 50%;
+  border-radius: 30%;
   font-size: 0;
   outline: 0;
 }
