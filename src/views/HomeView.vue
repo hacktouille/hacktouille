@@ -89,8 +89,26 @@
           <router-link style="text-decoration: none;  margin: 1% 10%;" to="/about">churras</router-link>
         </div>
       </div>
+    <div class="subtitulo">
+        <h4>Novidades</h4>
+    </div>
+  <div class="grid">
+    <div class="conteudolados">conteudo1</div>
+    <div class="conteudo1">conteudo2</div>
+    <div class="conteudolados">conteudo2</div>
 
+  </div>  
       <br/>
+      <div class="subtitulo">
+        <h4>Comunidade</h4>
+    </div>
+    <div id="fundo-if">
+      <div class="ifc">
+      <img class="img-if" src="/src/assets/images/Captura_de_tela_de_2022-06-11_08-50-51.png" alt="">
+      <button class="btn btn" style="margin:0 40% 1%; align-content:center;border-color: rgb(37, 133, 58);"><a href="https://araquari.ifc.edu.br">conheca o ifc</a></button>
+      </div>
+      
+    </div>
     </main>
       <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
     <div class="col-md-4 d-flex align-items-center">
@@ -109,9 +127,58 @@
 </template>
 
 <style>
-
+.ifc{
+  background-color: rgb(255, 255, 255);
+  max-width: 45%;
+  margin-left: 2rem;
+  border-radius: 1rem;
+}
+.img-if{
+  align-content: flex-start;
+  margin: 1rem 1rem;
+  width: 80%;
+  height: 20%;
+  border-radius: 1rem;
+}
+#fundo-if{
+  background-color: rgb(68, 0, 255);
+  padding: 1rem 0;
+  text-align: start;
+  margin:2rem 0;
+  height: 15rem;
+}
+.grid{
+  display: grid;
+  grid-template-columns:repeat(3, 33%);
+  margin: 4rem 10%;
+  align-content: center;
+}
+.conteudolados {border: 2px solid rgb(37, 133, 58);
+            margin: 3rem 2rem 1rem 2rem;
+            height: 10rem;
+            ;}
+.conteudo1{
+  border: 2px solid rgb(37, 133, 58);
+  margin: 1rem 2rem 3rem 2rem;
+  height: 10rem;
+}
+#news{
+  background-color: rgb(37, 133, 58);
+}
+#novidades{
+  background-color: rgb(37, 133, 58);
+  text-align: center;
+  padding: 2rem 1rem;
+  margin: 10% 4rem;
+  align-content: center;
+}
+.subtitulo{
+  background-color: rgb(37, 133, 58);
+  padding: 1rem 0;
+  border-radius:1em;
+  text-align: center;
+}
 body {
-  background-color: #962525;
   background-image: linear-gradient( #ffffff 0%, #dff4df 100%);
 }
 nav{
@@ -214,7 +281,7 @@ ol, li {
 
 .carousel {
   position: relative;
-  padding-top: 75%;
+  padding-top: 30%;
   filter: drop-shadow(0 0 10px #0003);
   perspective: 100px;
 }
